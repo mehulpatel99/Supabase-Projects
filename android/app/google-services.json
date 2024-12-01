@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1030809244653",
+    "project_id": "supabasenotification",
+    "storage_bucket": "supabasenotification.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030809244653:android:0c61b8a15b1eceb5914de4",
+        "android_client_info": {
+          "package_name": "com.example.myproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOPbX0xTXR6Y8eaenqnfVsJIvlQuolhZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
