@@ -7,11 +7,11 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
 import 'package:myproject/AuthScreens/login.dart';
-import 'package:myproject/model_prompt.dart';
+import 'package:myproject/screens/model_prompt.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-import '../home_page.dart';
-import '../profle.dart';
+import '../screens/home_page.dart';
+import '../screens/profle.dart';
 
 class CommonMethods {
   var currentUser = Supabase.instance.client.auth.currentUser;

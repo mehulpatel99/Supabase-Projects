@@ -10,14 +10,13 @@ import 'package:intl/intl.dart';
 import 'package:myproject/api/apiCallBack.dart';
 import 'package:myproject/api/apiPresenter.dart';
 import 'package:myproject/api/requestCode.dart';
-import 'package:myproject/drawerCllass.dart';
-import 'package:myproject/home_page.dart';
+import 'package:myproject/screens/drawerCllass.dart';
 import 'package:myproject/utils/commonMethods.dart';
 import 'package:myproject/utils/imageFullScreen.dart';
 import 'package:myproject/utils/session.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-import 'AuthScreens/style_constant.dart';
+import '../AuthScreens/style_constant.dart';
 import 'model_prompt.dart';
 
 class Profile extends StatefulWidget {

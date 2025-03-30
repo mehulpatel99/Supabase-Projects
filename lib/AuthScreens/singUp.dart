@@ -12,7 +12,7 @@ import 'package:myproject/api/requestCode.dart';
 import 'package:myproject/utils/commonMethods.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-import '../home_page.dart';
+import '../screens/home_page.dart';
 import '../utils/session.dart';
 class SignUp extends StatefulWidget {
   const SignUp({super.key});

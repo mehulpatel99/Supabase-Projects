@@ -10,7 +10,7 @@ import 'package:myproject/api/apiPresenter.dart';
 import 'package:myproject/api/requestCode.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-import '../home_page.dart';
+import '../screens/home_page.dart';
 import '../utils/session.dart';
 
 class LoginPage extends StatefulWidget {

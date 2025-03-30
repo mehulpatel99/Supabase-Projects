@@ -5,8 +5,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
-import 'package:myproject/home_page.dart';
 import 'package:myproject/utils/supabase_const.dart';
+
+import 'home_page.dart';
 
 // Define the Notification model
 class Notification {

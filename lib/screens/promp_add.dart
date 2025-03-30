@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:myproject/home_page.dart';
 import 'package:myproject/utils/commonMethods.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-import 'AuthScreens/style_constant.dart';
+import '../AuthScreens/style_constant.dart';
 class PromptAdd extends StatefulWidget {
   const PromptAdd({super.key});
 

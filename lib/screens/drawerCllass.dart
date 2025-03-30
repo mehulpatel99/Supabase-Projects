@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:myproject/allUsers.dart';
-import 'package:myproject/home_page.dart';
-import 'package:myproject/profle.dart';
-import 'package:myproject/weight.dart';
+import 'package:myproject/screens/allUsers.dart';
+import 'package:myproject/screens/profle.dart';
+import 'package:myproject/screens/weight.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+
+import 'home_page.dart';
 
 class DrawerClass extends StatefulWidget {
   final String screenName;

@@ -5,21 +5,20 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
-import 'package:myproject/allUsers.dart';
+import 'package:myproject/screens/allUsers.dart';
 import 'package:myproject/api/apiPresenter.dart';
 import 'package:myproject/api/requestCode.dart';
-import 'package:myproject/profle.dart';
-import 'package:myproject/promp_add.dart';
+import 'package:myproject/screens/profle.dart';
+import 'package:myproject/screens/promp_add.dart';
 import 'package:myproject/utils/commonMethods.dart';
 import 'package:myproject/utils/imageFullScreen.dart';
 import 'package:myproject/utils/supabase_const.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-import 'api/apiCallBack.dart';
+import '../api/apiCallBack.dart';
 import 'demoNotification.dart';
 import 'drawerCllass.dart';
 import 'model_prompt.dart';
-
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
