@@ -47,7 +47,7 @@ dependencies:
   http: ^1.2.2
   dart_jsonwebtoken: ^2.0.1
 #  flutter_unity_widget: ^2023.1.7
-  flutter_unity_widget:
+#  flutter_unity_widget:
 
 dev_dependencies:
   flutter_test:
